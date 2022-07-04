@@ -16,15 +16,40 @@ class Catalogue extends Component {
       <div class="flex-container">
         <div>
           <img src={apple} alt="Apple" height={100} width={100} />
-          <ToggleAddRemove>Apple</ToggleAddRemove>
+          <ToggleAddRemove
+            key={"apple"}
+            onAdd={this.props.onAdd}
+            onDelete={this.props.onDelete}
+          />
         </div>
-        <img src={apricot} alt="Apricot" height={100} width={100} />
-        <img src={banana} alt="Banana" height={100} width={100} />
-        <img src={cherry} alt="Cherry" height={100} width={100} />
-        <img src={grapes} alt="Grapes" height={100} width={100} />
-        <img src={lemon} alt="Lemon" height={100} width={100} />
-        <img src={orange} alt="Orange" height={100} width={100} />
-        <img src={strawberry} alt="Strawberry" height={100} width={100} />
+        <div>
+          <img src={apricot} alt="Apricot" height={100} width={100} />
+          <ToggleAddRemove key={"apricot"} />
+        </div>
+        <div>
+          <img src={banana} alt="Banana" height={100} width={100} />
+          <ToggleAddRemove key={"banana"} />
+        </div>
+        <div>
+          <img src={cherry} alt="Cherry" height={100} width={100} />
+          <ToggleAddRemove key={"cherry"} />
+        </div>
+        <div>
+          <img src={grapes} alt="Grapes" height={100} width={100} />
+          <ToggleAddRemove key={"grapes"} />
+        </div>
+        <div>
+          <img src={lemon} alt="Lemon" height={100} width={100} />
+          <ToggleAddRemove key={"lemon"} />
+        </div>
+        <div>
+          <img src={orange} alt="Orange" height={100} width={100} />
+          <ToggleAddRemove key={"orange"} />
+        </div>
+        <div>
+          <img src={strawberry} alt="Strawberry" height={100} width={100} />
+          <ToggleAddRemove key={"strawberry"} />
+        </div>
       </div>
     );
   }

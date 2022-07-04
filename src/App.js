@@ -2,15 +2,13 @@ import React, { Component } from "react";
 import NavBar from "./components/navbar";
 import Counters from "./components/counters";
 import Catalogue from "./components/catalogue";
+import ToggleAddRemove from "./components/toggleAddRemove";
 import "./App.css";
 
 class App extends Component {
   state = {
     counters: [
-      { id: 1, value: 4 },
-      { id: 2, value: 0 },
-      { id: 3, value: 0 },
-      { id: 4, value: 0 },
+      //{ id: 1, value: 1 },
     ],
   };
 
@@ -85,7 +83,11 @@ class App extends Component {
             onDelete={this.handleDelete}
             onAdd={this.handleAdd}
           />
-          <Catalogue />
+          <Catalogue
+            counters={this.state.counters}
+            onAdd={this.handleAddId}
+            onDelete={this.handleDelete}
+          />
         </main>
       </React.Fragment>
     );
