@@ -55,7 +55,7 @@ class App extends Component {
 
   handleAddId = (counterID) => {
     this.setState((previousState) => ({
-      counters: [...previousState.counters, { id: counterID, value: 0 }],
+      counters: [...previousState.counters, { id: counterID, value: 1 }],
     }));
   };
 

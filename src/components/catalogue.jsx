@@ -17,38 +17,66 @@ class Catalogue extends Component {
         <div>
           <img src={apple} alt="Apple" height={100} width={100} />
           <ToggleAddRemove
-            key={"apple"}
+            id={"apple"}
             onAdd={this.props.onAdd}
             onDelete={this.props.onDelete}
           />
         </div>
         <div>
           <img src={apricot} alt="Apricot" height={100} width={100} />
-          <ToggleAddRemove key={"apricot"} />
+          <ToggleAddRemove
+            id={"apricot"}
+            onAdd={this.props.onAdd}
+            onDelete={this.props.onDelete}
+          />
         </div>
         <div>
           <img src={banana} alt="Banana" height={100} width={100} />
-          <ToggleAddRemove key={"banana"} />
+          <ToggleAddRemove
+            id={"banana"}
+            onAdd={this.props.onAdd}
+            onDelete={this.props.onDelete}
+          />
         </div>
         <div>
           <img src={cherry} alt="Cherry" height={100} width={100} />
-          <ToggleAddRemove key={"cherry"} />
+          <ToggleAddRemove
+            id={"cherry"}
+            onAdd={this.props.onAdd}
+            onDelete={this.props.onDelete}
+          />
         </div>
         <div>
           <img src={grapes} alt="Grapes" height={100} width={100} />
-          <ToggleAddRemove key={"grapes"} />
+          <ToggleAddRemove
+            id={"grapes"}
+            onAdd={this.props.onAdd}
+            onDelete={this.props.onDelete}
+          />
         </div>
         <div>
           <img src={lemon} alt="Lemon" height={100} width={100} />
-          <ToggleAddRemove key={"lemon"} />
+          <ToggleAddRemove
+            id={"lemon"}
+            onAdd={this.props.onAdd}
+            onDelete={this.props.onDelete}
+          />
         </div>
         <div>
           <img src={orange} alt="Orange" height={100} width={100} />
-          <ToggleAddRemove key={"orange"} />
+          <ToggleAddRemove
+            id={"orange"}
+            onAdd={this.props.onAdd}
+            onDelete={this.props.onDelete}
+          />
         </div>
         <div>
           <img src={strawberry} alt="Strawberry" height={100} width={100} />
-          <ToggleAddRemove key={"strawberry"} />
+          <ToggleAddRemove
+            id={"strawberry"}
+            onAdd={this.props.onAdd}
+            onDelete={this.props.onDelete}
+          />
         </div>
       </div>
     );

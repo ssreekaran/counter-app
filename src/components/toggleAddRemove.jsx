@@ -1,6 +1,4 @@
-import { wait } from "@testing-library/user-event/dist/utils";
 import React, { Component } from "react";
-import Counter from "./counter";
 
 class ToggleAddRemove extends Component {
   state = { status: false, switchButton: "Add" };
@@ -13,9 +11,9 @@ class ToggleAddRemove extends Component {
       },
       () => {
         if (this.state.status) {
-          this.props.onAdd(this.props.key);
+          this.props.onAdd(this.props.id);
         } else {
-          this.props.onDelete(this.props.key);
+          this.props.onDelete(this.props.id);
         }
       }
     );
