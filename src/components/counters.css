@@ -3,14 +3,14 @@
     display: flex;
 }
 
-.left-container {
+.top-buttons-container {
     position: absolute;
     top: 10%;
     left: 0%;
     width: 50%;
 }
 
-.right-container {
+.left-container {
     position: absolute;
     top: 5%;
     left: 0%;

@@ -17,7 +17,7 @@ class Catalogue extends Component {
         <div>
           <img src={apple} alt="Apple" height={100} width={100} />
           <ToggleAddRemove
-            id={"apple"}
+            id={"Apple"}
             onAdd={this.props.onAdd}
             onDelete={this.props.onDelete}
           />
@@ -25,7 +25,7 @@ class Catalogue extends Component {
         <div>
           <img src={apricot} alt="Apricot" height={100} width={100} />
           <ToggleAddRemove
-            id={"apricot"}
+            id={"Apricot"}
             onAdd={this.props.onAdd}
             onDelete={this.props.onDelete}
           />
@@ -33,7 +33,7 @@ class Catalogue extends Component {
         <div>
           <img src={banana} alt="Banana" height={100} width={100} />
           <ToggleAddRemove
-            id={"banana"}
+            id={"Banana"}
             onAdd={this.props.onAdd}
             onDelete={this.props.onDelete}
           />
@@ -41,7 +41,7 @@ class Catalogue extends Component {
         <div>
           <img src={cherry} alt="Cherry" height={100} width={100} />
           <ToggleAddRemove
-            id={"cherry"}
+            id={"Cherry"}
             onAdd={this.props.onAdd}
             onDelete={this.props.onDelete}
           />
@@ -49,7 +49,7 @@ class Catalogue extends Component {
         <div>
           <img src={grapes} alt="Grapes" height={100} width={100} />
           <ToggleAddRemove
-            id={"grapes"}
+            id={"Grapes"}
             onAdd={this.props.onAdd}
             onDelete={this.props.onDelete}
           />
@@ -57,7 +57,7 @@ class Catalogue extends Component {
         <div>
           <img src={lemon} alt="Lemon" height={100} width={100} />
           <ToggleAddRemove
-            id={"lemon"}
+            id={"Lemon"}
             onAdd={this.props.onAdd}
             onDelete={this.props.onDelete}
           />
@@ -65,7 +65,7 @@ class Catalogue extends Component {
         <div>
           <img src={orange} alt="Orange" height={100} width={100} />
           <ToggleAddRemove
-            id={"orange"}
+            id={"Orange"}
             onAdd={this.props.onAdd}
             onDelete={this.props.onDelete}
           />
@@ -73,7 +73,7 @@ class Catalogue extends Component {
         <div>
           <img src={strawberry} alt="Strawberry" height={100} width={100} />
           <ToggleAddRemove
-            id={"strawberry"}
+            id={"Strawberry"}
             onAdd={this.props.onAdd}
             onDelete={this.props.onDelete}
           />

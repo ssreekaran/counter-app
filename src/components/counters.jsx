@@ -8,12 +8,12 @@ class Counters extends Component {
       this.props;
     return (
       <div class="main-container">
-        <div class="right-container">
+        <div class="left-container">
           <button onClick={onReset} className="btn bg-primary btn-sm m-2">
             Reset
           </button>
         </div>
-        <div class="left-container">
+        <div class="top-buttons-container">
           {counters.map((counter) => (
             <Counter
               key={counter.id}
